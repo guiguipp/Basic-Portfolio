@@ -1,0 +1,85 @@
+/* Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+*/
+
+/* fonts */
+h1 h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+p {
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+}
+h2 {
+    color: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+a {
+    color: #777777;
+}
+/* header */
+header {
+    color: #777777;
+    height: 50px;
+    background-color: #ffffff;
+    margin-bottom: 3%;
+}
+header div {
+ display: inline-block;   
+}
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#nav li {
+    display: inline-block;
+    color: #777777;
+}
+#nav {
+    float: none;
+}
+/* page */ 
+
+#page {
+    background-color: #dddddd;
+    padding-top: 50px;
+    width: 100%;
+    height: 700px;
+}
+#page div {
+    display: inline-block;   
+}
+#main #sidebar {
+    background-color: white;
+    display: inline-block;   
+}
+#main {
+    margin-top: 50px;
+    margin-left:7%;
+    height: 300px;
+    width: 60%;
+    background-color: white;
+}
+#line {
+    background-color: #cccccc;
+    height: 3px;
+    width: 80%;
+}
+#sidebar {
+    float: right;
+    margin-top: 50px;
+    margin-right:7%;
+    height: 300px;
+    width: 25%;
+    background-color: white;
+}
